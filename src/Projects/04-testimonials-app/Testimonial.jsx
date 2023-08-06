@@ -7,7 +7,7 @@ import { BiCommentDetail } from 'react-icons/bi'
 
 export default function Testimonial() {
 
-  const [testimonials, setTestimonials] = useState("posts");
+  const [testimonials, setTestimonials] = useState("todos");
   const [items, setItems] = useState();
 
   useEffect(() => {
@@ -39,10 +39,9 @@ export default function Testimonial() {
           />
           <Title
             classes={"subtitle text-primary"}
-            text={!testimonials ? "Select form above!" : testimonials}
+            text={"todos"==testimonials ? "Select form above!" : testimonials}
           />
-          {!items
-            ? null
+          {"todos" === testimonials ? null
             : items.map((item) => {
               return (
                 <div className="card card-primary mb-2" key={item.id}>
