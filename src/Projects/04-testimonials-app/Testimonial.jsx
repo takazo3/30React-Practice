@@ -10,11 +10,11 @@ export default function Testimonial() {
   const [testimonials, setTestimonials] = useState("todos");
   const [items, setItems] = useState();
 
-  useEffect(() => {
-    fetch(`https://jsonplaceholder.typicode.com/${testimonials}`)
-      .then(response => response.json())
-      .then(json => setItems(json))
-  }, [testimonials])
+  // useEffect(() => {
+  //   fetch(`https://jsonplaceholder.typicode.com/${testimonials}`)
+  //     .then(response => response.json())
+  //     .then(json => setItems(json))
+  // }, [testimonials])
 ;
       return (
         <div className="container m-auto">
