@@ -15,7 +15,6 @@ export default function SlideToUnlock() {
 
   const handleLockSliderInput = (e) => {
     setLockSliderValue(e.target.value);
-    console.log(e.target.value);
   };
   const lockScreen = () => {
     setLockSliderValue(0);
@@ -58,7 +57,7 @@ export default function SlideToUnlock() {
         <LockSlider
           width={"250px"}
           handleInput={handleLockSliderInput}
-          value={lockSliderValue}
+          sliderValue={lockSliderValue}
         />
       ) : (
         <AiFillUnlock className="unlockIcon" onClick={lockScreen} />
