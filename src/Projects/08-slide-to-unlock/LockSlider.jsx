@@ -8,6 +8,7 @@ export default function LockSlider({ handleInput, sliderValue, width }) {
     background: " rgba(188, 190, 188, 0.5)",
     outline: "none",
     borderRadius: "25px",
+    sliderValue: "0",
   };
   return (
     <input
