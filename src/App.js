@@ -8,6 +8,7 @@ import TemperatureControllerApp from './Projects/06-temperature-controller/Tempe
 import LightDarkMode from './Projects/07-light-dark-mode/LightDarkMode';
 import SlideToUnlock from './Projects/08-slide-to-unlock/SlideToUnlock';
 import SliderApp from './Projects/09-slider-app/SliderApp';
+import HiddenSearchBarApp from './Projects/10-hidden-search-bar/HiddenSearchBarApp';
 
 
 
@@ -22,7 +23,8 @@ function App() {
       {/* <TemperatureControllerApp /> */}
       {/* <LightDarkMode /> */}
       {/* <SlideToUnlock /> */}
-      <SliderApp />
+      {/* <SliderApp /> */}
+      <HiddenSearchBarApp />
     </div>
   );
 }
