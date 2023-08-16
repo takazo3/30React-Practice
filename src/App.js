@@ -10,6 +10,7 @@ import SlideToUnlock from './Projects/08-slide-to-unlock/SlideToUnlock';
 import SliderApp from './Projects/09-slider-app/SliderApp';
 import HiddenSearchBarApp from './Projects/10-hidden-search-bar/HiddenSearchBarApp';
 import MagicPopupApp from './Projects/11-magic-popup-app/MagicPopupApp';
+import ProgressBarsContainer from './Projects/12-progress-bar/ProgressBarsContainer';
 
 
 
@@ -26,7 +27,8 @@ function App() {
       {/* <SlideToUnlock /> */}
       {/* <SliderApp /> */}
       {/* <HiddenSearchBarApp /> */}
-      <MagicPopupApp />
+      {/* <MagicPopupApp /> */}
+      <ProgressBarsContainer />
     </div>
   );
 }
