@@ -12,6 +12,7 @@ import HiddenSearchBarApp from './Projects/10-hidden-search-bar/HiddenSearchBarA
 import MagicPopupApp from './Projects/11-magic-popup-app/MagicPopupApp';
 import ProgressBarsContainer from './Projects/12-progress-bar/ProgressBarsContainer';
 import DialogBox from './Projects/13-dialog-box/DialogBox';
+import FilterContactsApp from './Projects/14-filter-contacts-app/FilterContactsApp';
 
 
 
@@ -30,7 +31,8 @@ function App() {
       {/* <HiddenSearchBarApp /> */}
       {/* <MagicPopupApp /> */}
       {/* <ProgressBarsContainer /> */}
-      <DialogBox />
+      {/* <DialogBox /> */}
+      <FilterContactsApp />
     </div>
   );
 }
