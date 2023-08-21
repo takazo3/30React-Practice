@@ -14,6 +14,7 @@ import ProgressBarsContainer from './Projects/12-progress-bar/ProgressBarsContai
 import DialogBox from './Projects/13-dialog-box/DialogBox';
 import FilterContactsApp from './Projects/14-filter-contacts-app/FilterContactsApp';
 import RegForm from './Projects/15-reg-form-validation/RegForm';
+import NotesApp from './Projects/16-notes-app/NotesApp';
 
 
 
@@ -34,7 +35,8 @@ function App() {
       {/* <ProgressBarsContainer /> */}
       {/* <DialogBox /> */}
       {/* <FilterContactsApp /> */}
-      <RegForm />
+      {/* <RegForm /> */}
+      <NotesApp />
     </div>
   );
 }

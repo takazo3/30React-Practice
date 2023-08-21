@@ -13,7 +13,7 @@ export default function FilterContactsApp() {
   const [searchContact, setSearchContact] = useState("");
   return (
     <div className="text-center">
-      <Title text={"Filter Contacts App"} color={"text-info"}/>
+      <Title text={"Filter Contacts App"} classes={"text-info"}/>
       <input
         type="text"
         placeholder="Search by First Name"
