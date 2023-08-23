@@ -29,7 +29,7 @@ export default function LikePhotoApp() {
         >
 
           <AiOutlineComment />
-          {like ? <AiFillHeart className="text-danger" onClick={toggleLike} /> : <AiOutlineHeart onClick={toggleLike} />}
+          {like ? <AiFillHeart className="text-danger"  onClick={toggleLike} /> : <AiOutlineHeart  onClick={toggleLike}/>}
         </div>
       </div>
     </div>

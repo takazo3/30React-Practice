@@ -2,9 +2,9 @@ import React, { useState }from 'react'
 import Title from '../components/Title'
 
 export default function RandamaizColors() {
-  function handleClick(){
-    console.log("click")
-  }
+  // function handleClick(){
+  //   console.log("click")
+  // }
 
   function handleSecClick(e){
     let body = document.querySelector("body");

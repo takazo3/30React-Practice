@@ -15,6 +15,7 @@ import DialogBox from './Projects/13-dialog-box/DialogBox';
 import FilterContactsApp from './Projects/14-filter-contacts-app/FilterContactsApp';
 import RegForm from './Projects/15-reg-form-validation/RegForm';
 import NotesApp from './Projects/16-notes-app/NotesApp';
+import ResponsiveNav from './Projects/17-Responsive-nav-with-hamburger/ResponsiveNav';
 
 
 
@@ -23,8 +24,8 @@ function App() {
     <div className="App">
       {/* <ESignatureApp /> */}
       {/* <RandamaizColors /> */}
-      {/* <LikePhotoApp />
-      <Testimonial /> */}
+      {/* <LikePhotoApp /> */}
+      {/* <Testimonial /> */}
       {/* <AlertApp /> */}
       {/* <TemperatureControllerApp /> */}
       {/* <LightDarkMode /> */}
@@ -36,7 +37,8 @@ function App() {
       {/* <DialogBox /> */}
       {/* <FilterContactsApp /> */}
       {/* <RegForm /> */}
-      <NotesApp />
+      {/* <NotesApp /> */}
+      <ResponsiveNav />
     </div>
   );
 }
