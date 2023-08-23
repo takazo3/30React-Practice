@@ -16,6 +16,7 @@ import FilterContactsApp from './Projects/14-filter-contacts-app/FilterContactsA
 import RegForm from './Projects/15-reg-form-validation/RegForm';
 import NotesApp from './Projects/16-notes-app/NotesApp';
 import ResponsiveNav from './Projects/17-Responsive-nav-with-hamburger/ResponsiveNav';
+import TextAnimationApp from './Projects/18-text-animation-app/TextAnimationApp';
 
 
 
@@ -38,7 +39,8 @@ function App() {
       {/* <FilterContactsApp /> */}
       {/* <RegForm /> */}
       {/* <NotesApp /> */}
-      <ResponsiveNav />
+      {/* <ResponsiveNav /> */}
+      <TextAnimationApp />
     </div>
   );
 }
