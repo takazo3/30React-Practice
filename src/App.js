@@ -17,6 +17,7 @@ import RegForm from './Projects/15-reg-form-validation/RegForm';
 import NotesApp from './Projects/16-notes-app/NotesApp';
 import ResponsiveNav from './Projects/17-Responsive-nav-with-hamburger/ResponsiveNav';
 import TextAnimationApp from './Projects/18-text-animation-app/TextAnimationApp';
+import InterestRateApp from './Projects/19-interest-rate/InterestRateApp';
 
 
 
@@ -40,7 +41,8 @@ function App() {
       {/* <RegForm /> */}
       {/* <NotesApp /> */}
       {/* <ResponsiveNav /> */}
-      <TextAnimationApp />
+      {/* <TextAnimationApp /> */}
+      <InterestRateApp />
     </div>
   );
 }
